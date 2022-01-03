@@ -1,0 +1,63 @@
+.experience {
+  box-sizing: border-box;
+}
+
+.experience .row .column {
+  float: left;
+  width: 300px;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: #82EEFD;
+  background: #1F456E;
+}
+
+.experience .containerTab {
+  padding: 20px;
+  color: #82EEFD;
+  background: #1F456E;
+  width: 900px;
+  height: 200px;
+  margin-left: 40px;
+  font-size: 15px;
+  display: none;
+}
+
+.experience .containerTab p {
+	font-family: arial;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.experience .containerTab h2 {
+	font-family: arial;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.experience .row {
+  padding: 40px;
+}
+
+.experience .column:hover {
+	color: #1F456E;
+	background: #82EEFD;
+}
+
+.experience .column:hover i {
+	font-size: 40px
+}
+
+.experience .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.experience .closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education .info {
+  display:flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.education .info .card {
+  background: #1F456E;
+  width: 280px;
+  height: 400px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.education .info .card:hover {
+  color: black;
+  background: #0492C2;
+}
+
+.education .info .card i {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.education .info .card h3 {
+  font-family: arial;
+  color: white;
+  font-size: 30px;
+  opacity: 1;
+}
+
+.education .info .card:hover h3 {
+	opacity: 0;
+}
+
+.education .info .card p {
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin: 15px;
+	opacity: 0;
+	transition: 0.2s linear;
+	max-height: 0;
+	padding: 5px;
+}
+
+.education .info .card:hover p {
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin: 15px;
+	opacity: 1;
+}
+
+.education .info .card img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: solid;
+	margin-bottom: 30px;
+	background: white;
+}

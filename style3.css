@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill .info {
+  display:flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.skill .info .card {
+  color: white;
+  background: #1F456E;
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.skill .info .card:hover {
+	background: #0492C2;
+}
+
+.skill .info .card i {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.skill .info .card:hover i {
+	font-size: 80px;
+	color: #DAF0FF;
+}
+
+.skill .info .card h3 {
+  font-family: arial;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.skill .info .card:hover h3 {
+  font-family: arial;
+  font-size: 30px;
+  padding: 10px;
+  opacity: 0;
+}
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+<header>
+
+    <div class="user">
+        <a href="index.html"><img src="akmal.jpg" alt=""></a>
+        <h3 class="name">Akmalrizan</h3>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+			<li><a href="about.html">about</a></li>
+            <li><a href="education.html">education</a></li>
+            <li><a href="skill.html">skills</a></li>
+			<li><a href="experience.html">experience</a></li> 
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<section class="home" id="home">
+
+    <h3>Assalamualaikum</h3>
+    <h1>My Name is <span>Akmalrizan</span></h1>
+	
+	<video id="myVideo">
+        <source src="intro.mp4" type="video/mp4">
+    </video>
+
+<div class="content">
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+
+
+</section>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
